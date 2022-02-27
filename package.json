@@ -31,7 +31,7 @@
     "test:chromatic": "yarn lerna run test:chromatic",
     "build:storybook": "yarn build && yarn lerna run build-storybook",
     "format:code": "prettier --parser typescript *.js \"packages/**/*.{ts,tsx,js}\"",
-    "format": "pnpm format:code -- --write"
+    "format": "npm format:code -- --write"
   },
   "config": {
     "commitizen": {
