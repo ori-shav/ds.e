@@ -29,7 +29,9 @@
     "publish": "yarn test && yarn build && yarn lerna publish",
     "commit": "yarn git-cz",
     "test:chromatic": "yarn lerna run test:chromatic",
-    "build:storybook": "yarn build && yarn lerna run build-storybook"
+    "build:storybook": "yarn build && yarn lerna run build-storybook",
+    "format:code": "prettier --parser typescript *.js \"packages/**/*.{ts,tsx,js}\"",
+    "format": "pnpm format:code -- --write"
   },
   "config": {
     "commitizen": {

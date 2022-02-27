@@ -1,1 +1,1 @@
-module.exports = require('../react/babel.config')
+module.exports = require('../react/babel.config');
